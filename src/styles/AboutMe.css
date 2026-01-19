@@ -1,0 +1,51 @@
+.about-me-card {
+    background-color: var(--bg-card, #252b3b);
+    /* Fallback or use variable if defined globally */
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: none;
+    color: var(--text-primary, #ffffff);
+    font-family: 'Inter', system-ui, sans-serif;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.about-icon {
+    color: #3b82f6;
+    /* Blue accent color */
+}
+
+.about-header h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about-content {
+    color: var(--text-secondary, #9ca3af);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about-me-card {
+        padding: 25px;
+    }
+}

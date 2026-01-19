@@ -1,0 +1,74 @@
+.experience-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Slightly lighter than container for contrast */
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    color: #ffffff;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.experience-card:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.experience-icon-wrapper {
+    min-width: 48px;
+    height: 48px;
+    background-color: rgba(59, 130, 246, 0.2);
+    /* Blue tint background for icon */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #60a5fa;
+    /* Blue icon color */
+    flex-shrink: 0;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    color: #ffffff;
+}
+
+.experience-meta {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.experience-org {
+    color: #60a5fa;
+    /* Blue accent for organization name */
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.experience-date {
+    color: #9ca3af;
+    /* Gray for date */
+}
+
+.experience-description {
+    font-size: 0.95rem;
+    color: #9ca3af;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+    .experience-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
