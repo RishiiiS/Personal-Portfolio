@@ -1,12 +1,12 @@
 import React from 'react';
-import { Award, GitPullRequest, Users } from 'lucide-react';
+import { Award, GitPullRequest, Brain } from 'lucide-react';
 import AchievementCard from './AchievementCard';
 import '../styles/Achievements.css';
 
 const achievements = [
     {
         icon: Award,
-        title: "Hackathon Winner",
+        title: "Robotics Enthusiast",
         subTitle: "1st Place - CodeJam 2025"
     },
     {
@@ -15,9 +15,9 @@ const achievements = [
         subTitle: "15+ Contributions"
     },
     {
-        icon: Users,
-        title: "Community",
-        subTitle: "Tech Club President"
+        icon: Brain,
+        title: "AI Innovator",
+        subTitle: "Building Intelligent Systems"
     }
 ];
 

@@ -13,10 +13,10 @@ const AboutMe = () => {
             <div className="about-content">
                 <p>
                     I’m a software engineer who enjoys building full-stack applications and experimenting with AI-driven ideas. I work mainly with Python and JavaScript and like creating practical, user-focused projects. I’m especially interested in AI, computer vision with OpenCV, and robotics, and I enjoy exploring how software connects with the real world.
-                    I learn by building, love solving problems, and focus on turning ideas into simple, working solutions.
+                    
                 </p>
                 <p>
-                    When I'm not coding, you'll find me contributing to open-source projects, participating in hackathons, or exploring the latest tech trends. I'm always eager to learn new technologies and collaborate with creative teams.
+                   I learn by building, love solving problems, and focus on turning ideas into simple, working solutions.
                 </p>
             </div>
         </div>
