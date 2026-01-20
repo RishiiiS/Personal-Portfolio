@@ -6,58 +6,27 @@ import '../styles/FeaturedProjects.css';
 const projects = [
     {
         icon: Code,
-        title: "Social Media Dashboard",
-        description: "Real-time analytics platform with interactive charts and engagement metrics",
-        techStack: "React, Firebase, Chart.js",
-        stars: 124,
-        demoLink: "#",
-        codeLink: "#"
+        title: "Tairis",
+        description: "Web Based First-Aid Assistance Platform for Emergency Response",
+        techStack: "React, Node.js, Supabase",
+        demoLink: "https://tairis-ecru.vercel.app/",
+        codeLink: "https://github.com/RishiiiS/tairis/tree/main"
     },
     {
-        icon: Cloud,
-        title: "Weather Forecast App",
-        description: "Beautiful weather app with 7-day forecast and location-based predictions",
-        techStack: "Vue.js, OpenWeather API, Geolocation",
-        stars: 89,
+        icon: Smartphone,
+        title: "AI Virtual Painter",
+        description: "An AI-powered virtual painter that lets users draw in the air using hand gestures detected via computer vision.",
+        techStack: "OpenCV, Mediapipe, Numpy,handTracking",
         demoLink: "#",
         codeLink: "#"
     },
     {
         icon: CheckSquare,
-        title: "Task Management System",
-        description: "Collaborative kanban board with real-time updates and team features",
-        techStack: "MERN Stack, Socket.io, Redux",
-        stars: 156,
-        demoLink: "#",
-        codeLink: "#"
-    },
-    {
-        icon: Database,
-        title: "E-commerce Platform",
-        description: "Full-featured online store with payment integration and admin dashboard",
-        techStack: "Next.js, Stripe, PostgreSQL",
-        stars: 203,
-        demoLink: "#",
-        codeLink: "#",
-        isFeatured: true
-    },
-    {
-        icon: Smartphone,
-        title: "Fitness Tracking App",
-        description: "Cross-platform mobile app for tracking workouts and nutrition goals",
-        techStack: "React Native, Firebase, HealthKit",
-        stars: 167,
-        demoLink: "#",
-        codeLink: "#"
-    },
-    {
-        icon: Zap,
-        title: "AI Chat Assistant",
-        description: "Intelligent chatbot with context awareness and natural language processing",
-        techStack: "Python, OpenAI API, FastAPI",
-        stars: 298,
-        demoLink: "#",
-        codeLink: "#"
+        title: "LifeLink",
+        description: "LifeLink connects users to emergency support and trusted contacts in real time when every second matters.",
+        techStack: "React, Node.js",
+        demoLink: "https://lifelink-alpha.vercel.app/",
+        codeLink: "https://github.com/RishiiiS/Lifelink"
     }
 ];
 

@@ -1,0 +1,83 @@
+.currently-learning-card {
+    background-color: var(--bg-card, #252b3b);
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Will let flexbox stretch it */
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 15px;
+}
+
+.learning-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    /* Pushes content to fill space if needed */
+}
+
+.learning-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.learning-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.learning-icon.green {
+    background-color: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+}
+
+.learning-icon.purple {
+    background-color: rgba(168, 85, 247, 0.1);
+    color: #a855f7;
+}
+
+.learning-icon.blue {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+}
+
+.learning-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.learning-progress {
+    font-size: 0.8rem;
+    color: #9ca3af;
+}
+
+@media (max-width: 850px) {
+    .currently-learning-card {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

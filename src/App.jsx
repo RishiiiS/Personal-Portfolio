@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import StatsCard from './components/StatsCard';
 import StatusCard from './components/StatusCard';
+import CurrentlyLearning from './components/CurrentlyLearning';
 import ContactCTA from './components/ContactCTA';
 import Footer from './components/Footer';
 import './App.css';
@@ -19,7 +20,9 @@ function App() {
                     <StatsCard />
                     <StatusCard />
                 </div>
+                <CurrentlyLearning />
             </div>
+
             <AboutMe />
             <FeaturedProjects />
             <Skills />
@@ -27,7 +30,7 @@ function App() {
             <Achievements />
             <ContactCTA />
             <Footer />
-        </div>
+        </div >
     );
 }
 
