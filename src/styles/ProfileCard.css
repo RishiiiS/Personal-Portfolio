@@ -12,13 +12,16 @@
   background-color: var(--bg-card);
   border-radius: 20px;
   padding: 40px;
-  width: 90%;
-  max-width: none;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
   color: var(--text-primary);
   font-family: 'Inter', system-ui, sans-serif;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -88,48 +91,10 @@
   transform: translateY(-2px);
 }
 
-.gpa-badge {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 20px 30px;
-  border-radius: 16px;
-  text-align: right;
-  min-width: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-
-.gpa-score {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 8px;
-}
-
-.gpa-major {
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-}
-
 @media (max-width: 768px) {
   .profile-card {
     flex-direction: column;
     padding: 25px;
-  }
-
-  .gpa-badge {
-    margin-top: 25px;
-    width: 100%;
-    text-align: left;
-    align-items: flex-start;
-  }
-
-  .gpa-score {
-    justify-content: flex-start;
   }
 
   .profile-name {

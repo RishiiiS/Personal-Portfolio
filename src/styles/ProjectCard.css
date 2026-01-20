@@ -1,5 +1,5 @@
 .project-card {
-    background-color: var(--bg-card, #252b3b);
+    background-color: rgb(80, 85, 101);
     border-radius: 12px;
     padding: 20px;
     display: flex;

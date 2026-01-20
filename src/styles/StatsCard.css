@@ -1,0 +1,80 @@
+.stats-card {
+    background-color: var(--bg-card, #252b3b);
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    height: auto;
+    /* Match ProfileCard height if possible, or auto */
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.stat-icon-wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(16, 185, 129, 0.1);
+    /* Emerald tint */
+    color: #10b981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-icon-wrapper.blue {
+    background-color: rgba(59, 130, 246, 0.1);
+    /* Blue tint */
+    color: #3b82f6;
+}
+
+.stat-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.stat-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    .stats-card {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .stat-divider {
+        width: 1px;
+        height: 40px;
+        align-self: center;
+    }
+}

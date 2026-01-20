@@ -23,7 +23,7 @@ const experiences = [
 const EducationExperience = () => {
     return (
         <div className="education-experience-container">
-            <h2 className="section-title">Experience & Education</h2>
+            <h2 className="section-title">Education</h2>
             <div className="experience-list">
                 {experiences.map((exp, index) => (
                     <ExperienceCard key={index} {...exp} />

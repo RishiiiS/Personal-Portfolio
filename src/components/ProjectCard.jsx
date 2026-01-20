@@ -1,17 +1,13 @@
 import React from 'react';
-import { ExternalLink, Github, Star } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import '../styles/ProjectCard.css';
 
-const ProjectCard = ({ icon: Icon, title, description, techStack, stars, demoLink, codeLink, isFeatured }) => {
+const ProjectCard = ({ icon: Icon, title, description, techStack, demoLink, codeLink, isFeatured }) => {
     return (
         <div className={`project-card ${isFeatured ? 'featured' : ''}`}>
             <div className="card-header">
                 <div className="project-icon">
                     {Icon && <Icon size={24} />}
-                </div>
-                <div className="project-stars">
-                    <Star size={16} className="star-icon" fill="#fbbf24" stroke="#fbbf24" />
-                    <span>{stars}</span>
                 </div>
             </div>
 

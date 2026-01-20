@@ -1,0 +1,103 @@
+.contact-cta-container {
+    background-color: #1e2952;
+    /* Dark indigo/navy background */
+    background: linear-gradient(180deg, #1e2952 0%, #172046 100%);
+    border-radius: 20px;
+    padding: 60px 40px;
+    width: 90%;
+    max-width: none;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.cta-icon-wrapper {
+    color: #60a5fa;
+    /* Light blue */
+    margin-bottom: 24px;
+}
+
+.cta-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.cta-description {
+    font-size: 1.05rem;
+    color: #cad1d9;
+    max-width: 600px;
+    margin: 0 0 32px 0;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffffff;
+    color: #0f172a;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .contact-cta-container {
+        padding: 40px 24px;
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+}

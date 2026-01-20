@@ -9,3 +9,28 @@
   padding: 40px;
   box-sizing: border-box;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 40px;
+  align-items: stretch;
+  margin-bottom: 40px;
+  /* Ensure ProfileCard's margin-left works or handle alignment here */
+}
+
+.hero-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* managed by margin-top in component or gap here */
+}
+
+@media (max-width: 850px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
