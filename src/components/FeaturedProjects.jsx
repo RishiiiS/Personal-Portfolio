@@ -17,8 +17,8 @@ const projects = [
         title: "AI Virtual Painter",
         description: "An AI-powered virtual painter that lets users draw in the air using hand gestures detected via computer vision.",
         techStack: "OpenCV, Mediapipe, Numpy,handTracking",
-        demoLink: "#",
-        codeLink: "#"
+        demoLink: "https://drive.google.com/file/d/1Qh62jHRA8CrRGQf_PmJ-LmMRqVJCyIN8/view",
+        codeLink: "https://github.com/RishiiiS/AI-Virtual-Painter"
     },
     {
         icon: CheckSquare,
