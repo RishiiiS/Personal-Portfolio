@@ -5,6 +5,30 @@ import '../styles/FeaturedProjects.css';
 
 const projects = [
     {
+        icon: Smartphone,
+        title: "DoodleDash",
+        description: "Real-time multiplayer drawing game with WebSocket-based sync and gesture-controlled input.",
+        techStack: "Websockets,flask,OpenCV,Mediapipe,gunicorn",
+        demoLink: "https://doodledashh.vercel.app/",
+        codeLink: "https://github.com/RishiiiS/AI-Virtual-Painter"
+    },
+    {
+        icon: Code,
+        title: "MoneyTree",
+        description: "MoneyTree is a full-stack expense tracking application that enables users to manage income and expenses with real-time analytics using React, Node.js, and PostgreSQL",
+        techStack: "React, Node.js,postgresql,jwt,bcrypt",
+        demoLink: "https://moneytree-tau-two.vercel.app/",
+        codeLink: "https://github.com/RishiiiS/Expense_Manager"
+    },
+    {
+        icon: Smartphone,
+        title: "The Archive",
+        description: "A full-stack blogging platform built with Next.js, Supabase, and Cloudinary, featuring authentication, blog creation, and optimized media handling.",
+        techStack: "Next.js, Supabase, Cloudinary",
+        demoLink: "https://archive-nu-mauve.vercel.app/",
+        codeLink: "https://github.com/RishiiiS/Hivon_auto_Assignment"
+    },
+    {
         icon: Code,
         title: "Tairis",
         description: "Web Based First-Aid Assistance Platform for Emergency Response",
@@ -13,21 +37,14 @@ const projects = [
         codeLink: "https://github.com/RishiiiS/tairis/tree/main"
     },
     {
-        icon: Smartphone,
-        title: "AI Virtual Painter",
-        description: "An AI-powered virtual painter that lets users draw in the air using hand gestures detected via computer vision.",
-        techStack: "OpenCV, Mediapipe, Numpy,handTracking",
-        demoLink: "https://drive.google.com/file/d/1Qh62jHRA8CrRGQf_PmJ-LmMRqVJCyIN8/view",
-        codeLink: "https://github.com/RishiiiS/AI-Virtual-Painter"
-    },
-    {
         icon: CheckSquare,
         title: "LifeLink",
         description: "LifeLink connects users to emergency support and trusted contacts in real time when every second matters.",
         techStack: "React, Node.js",
         demoLink: "https://lifelink-alpha.vercel.app/",
         codeLink: "https://github.com/RishiiiS/Lifelink"
-    }
+    },
+
 ];
 
 const FeaturedProjects = () => {
